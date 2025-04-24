@@ -5,6 +5,7 @@ import { X, Minus, Square } from "lucide-react"
 import { type ReactNode, useState, useRef, useEffect} from "react"
 import Image from "next/image"
 import MICHEL from "../../../public/763178630.093099.jpeg"
+import useMediaQuery from "../hooks/useMediaQuery"
 
 interface Position {
     x: number
@@ -28,6 +29,7 @@ export default function WindowDialog({
     const [isDragging, setIsDragging] = useState(false);
     const [dragOffset, setDragOffset] = useState<Position>({x:0,y:0})
     const dialogRef = useRef<HTMLDivElement>(null)
+    const isDesktop = useMediaQuery(768);
     
     const defaultContent = (
         <div>
@@ -56,6 +58,24 @@ export default function WindowDialog({
             <hr className="my-4 border-gray-400" />
 
             <p className="mb-4 text-black font-semibold">https://jp.mercari.com/user/profile/732998095</p>
+
+            { !isDesktop && 
+            <div>
+                <hr className="my-4 border-gray-400" />
+                <h2 className="text-black text-2xl font-bold py-2">マイケルの質問コーナー</h2>
+                <p className="mb-4 text-black font-semibold">愛読書は?→嫌われる勇気、三体、DaiGoの超トーク力 心を操る話し方の科学</p>
+                <p className="mb-4 text-black font-semibold">好きなドラマは→梨泰院クラス</p>
+                <p className="mb-4 text-black font-semibold">趣味は?→カフェ巡り</p>
+                <p className="mb-4 text-black font-semibold">好きな漫画は→チェンソーマン、チ_2</p>
+                <p className="mb-4 text-black font-semibold">好きなゲームは→かまいたちの夜3</p>
+                <p className="mb-4 text-black font-semibold">好きなアニメは→妄想代理人</p>
+                <p className="mb-4 text-black font-semibold">スマブラではなにつかう?→ファルコンとルフレ</p>
+                <p className="mb-4 text-black font-semibold">MBTIは?→INTP</p>
+                <p className="mb-4 text-black font-semibold">彼女は→ノーコメント</p>
+                <p className="mb-4 text-black font-semibold">家は→池袋</p>
+                
+            </div>
+            }
         </div>
 
         
