@@ -54,6 +54,8 @@ export default function WindowDialog({
 
             <p className="mb-4 text-black font-semibold">技術:jQuery、リレーコンピューター、CAN通信</p>
             <hr className="my-4 border-gray-400" />
+
+            <p className="mb-4 text-black font-semibold">https://jp.mercari.com/user/profile/732998095</p>
         </div>
 
         
