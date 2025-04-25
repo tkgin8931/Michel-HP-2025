@@ -34,7 +34,7 @@ export default function WindowDialog({
     const defaultContent = (
         <div>
         <div className="bg-gray-200 p-2 text-sm">
-            <p className="mb-4 text-black font-semibold">このサイトは宮田マイケル公式ホームページです。</p>
+            <p className="mb-4 text-black text-xl font-semibold">このサイトは宮田マイケル公式ホームページです。</p>
             
             <div className="flex flex-row items-center justify-center gap-16 py-2">
 
@@ -52,9 +52,23 @@ export default function WindowDialog({
 
             <p className="mb-4 text-black font-semibold">大岡山を拠点とする謎の秘密組織にて工作活動をしている。</p>
 
-            <p className="mb-4 text-black font-semibold">特技:演歌</p>
+            <p className="mb-4 text-black font-semibold">特技:演歌、腕立て伏せ</p>
 
             <p className="mb-4 text-black font-semibold">技術:jQuery、リレーコンピューター、CAN通信</p>
+            { !isDesktop && 
+            <div>
+                
+                <p className="mb-4 text-black font-semibold">プロジェクト:C-79J ログ基板,C-83LM 電源管理基板</p>
+                <p className="mb-4 text-black font-semibold">役職:電装班長、GSE配線係</p>
+                <p className="mb-4 text-black font-semibold">実績:</p>
+                <p className="mb-4 text-black font-semibold">小学生にて俳句が入賞する。</p>
+                <p className="mb-4 text-black font-semibold">麻布高校物理部無線班にて255までの足し算ができるMICHEL言語、MICHEL OSを開発。</p>
+                <p className="mb-4 text-black font-semibold">C-79Jの機体内通信として団体初のCAN通信を実現</p>
+                <p className="mb-4 text-black font-semibold">電気電子系に系所属</p>
+                <p className="mb-4 text-black font-semibold">マニュアル普通自動車免許を取得</p>
+                <p className="mb-4 text-black font-semibold">台湾まぜそば「こころ」の5辛を完食</p>
+            </div>
+            }
             <hr className="my-4 border-gray-400" />
 
             <p className="mb-4 text-black font-semibold">https://jp.mercari.com/user/profile/732998095</p>
@@ -63,12 +77,12 @@ export default function WindowDialog({
             <div>
                 <hr className="my-4 border-gray-400" />
                 <h2 className="text-black text-2xl font-bold py-2">マイケルの質問コーナー</h2>
-                <p className="mb-4 text-black font-semibold">愛読書は?→嫌われる勇気、三体、DaiGoの超トーク力 心を操る話し方の科学</p>
-                <p className="mb-4 text-black font-semibold">好きなドラマは→梨泰院クラス</p>
+                <p className="mb-4 text-black font-semibold">愛読書は?→「嫌われる勇気」、「三体」、「DaiGoの超トーク力 心を操る話し方の科学」</p>
+                <p className="mb-4 text-black font-semibold">好きなドラマは→「梨泰院クラス」</p>
                 <p className="mb-4 text-black font-semibold">趣味は?→カフェ巡り</p>
-                <p className="mb-4 text-black font-semibold">好きな漫画は→チェンソーマン、チ_2</p>
-                <p className="mb-4 text-black font-semibold">好きなゲームは→かまいたちの夜3</p>
-                <p className="mb-4 text-black font-semibold">好きなアニメは→妄想代理人</p>
+                <p className="mb-4 text-black font-semibold">好きな漫画は→「チェンソーマン」、「チ_2」</p>
+                <p className="mb-4 text-black font-semibold">好きなゲームは→「かまいたちの夜3」</p>
+                <p className="mb-4 text-black font-semibold">好きなアニメは→「妄想代理人」「魔法少女まどかマギカ」</p>
                 <p className="mb-4 text-black font-semibold">スマブラではなにつかう?→ファルコンとルフレ</p>
                 <p className="mb-4 text-black font-semibold">MBTIは?→INTP</p>
                 <p className="mb-4 text-black font-semibold">彼女は→ノーコメント</p>

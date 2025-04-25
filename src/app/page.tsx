@@ -8,7 +8,7 @@ export default function Top() {
   const isDesktop = useMediaQuery(768);
   return (
     <div>
-      {isDesktop ? <RetroDesktop /> : <WindowDialog title="このサイトについて" onClose={() => 0} initialPosition={{ x: 0, y: 50 }} />}
+      {isDesktop ? <RetroDesktop /> : <WindowDialog title="宮田マイケル公式HP" onClose={() => 0} initialPosition={{ x: 0, y: 50 }} />}
     </div>
   )
 }
