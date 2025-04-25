@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import WindowDialog from "./WindowDialog"
-import BannerHeader from "./BannerHeader"
+// import BannerHeader from "./BannerHeader"
 import DesktopIcon from "./Desktop-icon"
 import { Folder, FileText, Globe, ImageIcon, Mail } from "lucide-react"
 import P1 from "../../../public/IMG_7066.jpeg"
@@ -49,8 +49,8 @@ export default function RetroDesktop() {
   }
 
   return (
-    <div className="min-h-screen bg-teal-600 flex flex-col items-center py-8 px-4 relative">
-      <BannerHeader />
+    <div className="min-h-screen bg-teal-600 flex flex-col py-8 px-4 relative">
+      {/* <BannerHeader /> */}
 
       {/* Desktop Icons */}
       <div className="absolute top-4 left-4 flex flex-col gap-4">
@@ -82,7 +82,7 @@ export default function RetroDesktop() {
       </div>
 
       {/* Windows */}
-      <div className="w-full flex flex-col items-center gap-4 z-10">
+      <div className=" flex flex-col gap-4 z-10">
         {openWindows.about && (
           <WindowDialog
             title="宮田マイケル公式HP"
@@ -130,7 +130,7 @@ export default function RetroDesktop() {
           </WindowDialog>
         )}
         {openWindows.picture && (
-          <WindowDialog title="ピクチャ" onClose={() => toggleWindow("picture")} initialPosition={{ x: 300, y: 250 }}>
+          <WindowDialog title="ピクチャ" onClose={() => toggleWindow("picture")} initialPosition={{ x: 400, y: 100 }}>
             <div className="p-4 text-black">
               <h2 className="font-bold mb-2">ピクチャ</h2>
               <p>最近または過去の日々</p>

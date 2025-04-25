@@ -139,7 +139,7 @@ export default function WindowDialog({
             className="w-full max-w-3xl border-2 border-gray-400 shadow-lg bg-gray-200 rounded-sm overflow-hidden absolute z-10"
             style={{
                 left: `${position.x}px`,
-                right: `${position.y}px`,
+                top: `${position.y}px`,
                 cursor: isDragging ? "grabbing" : "auto",
             }}
             >
