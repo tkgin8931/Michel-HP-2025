@@ -78,16 +78,47 @@ export default function WindowDialog({
                 <hr className="my-4 border-gray-400" />
                 <h2 className="text-black text-2xl font-bold py-2">マイケルの質問コーナー</h2>
                 <p className="mb-4 text-black font-semibold">愛読書は?→「嫌われる勇気」、「三体」、「DaiGoの超トーク力 心を操る話し方の科学」</p>
-                <p className="mb-4 text-black font-semibold">好きなドラマは→「梨泰院クラス」</p>
+                <p className="mb-4 text-black font-semibold">好きなドラマは→「梨泰院クラス」「SPEC」「ガリレオ」</p>
                 <p className="mb-4 text-black font-semibold">趣味は?→カフェ巡り</p>
                 <p className="mb-4 text-black font-semibold">好きな漫画は→「チェンソーマン」、「チ_2」</p>
-                <p className="mb-4 text-black font-semibold">好きなゲームは→「かまいたちの夜3」</p>
+                <p className="mb-4 text-black font-semibold">好きな小説→「変身」(カフカ)</p>
+                <p className="mb-4 text-black font-semibold">好きなゲームは→「かまいたちの夜3」「UNDERTALE」「Pinapple On Pizza」</p>
                 <p className="mb-4 text-black font-semibold">好きなアニメは→「妄想代理人」「魔法少女まどかマギカ」</p>
-                <p className="mb-4 text-black font-semibold">スマブラではなにつかう?→ファルコンとルフレ</p>
-                <p className="mb-4 text-black font-semibold">MBTIは?→INTP</p>
-                <p className="mb-4 text-black font-semibold">彼女は→ノーコメント</p>
-                <p className="mb-4 text-black font-semibold">家は→池袋</p>
-                
+                <p className="mb-4 text-black font-semibold">スマブラではなにつかう?→ファルコとルフレ</p>
+                <p className="mb-4 text-black font-semibold">MBTIは?→INFP</p>
+                <p className="mb-4 text-black font-semibold">彼女の名前は→こうはいちゃん</p>
+                <p className="mb-4 text-black font-semibold">家は→池袋どこかの802号室</p>
+                <p className="mb-4 text-black font-semibold">行きつけのメンズサロン→OCEAN TRICO OVER</p>
+                <p className="mb-4 text-black font-semibold">座右の銘→「眉毛は顔の印象の8割」</p>
+                <p className="mb-4 text-black font-semibold">無人島に何か一つ持っていくなら→</p>
+                <p className="mb-4 text-black font-semibold">夢は→パワエレを極める</p>
+                <p className="mb-4 text-black font-semibold">好きな女優は→エマワトソン、グレタ</p>
+                <p className="mb-4 text-black font-semibold">好きな芸人→さらば青春の光</p>
+                <p className="mb-4 text-black font-semibold">尊敬している人→パワエレ幼女、masaki</p>
+                <p className="mb-4 text-black font-semibold">好きな曲は→Vaundy「カーニバル」、麻布高校校歌</p>
+                <p className="mb-4 text-black font-semibold">高校時代作ったものは→MICHEL CPU、フォークリフトロボ</p>
+                <p className="mb-4 text-black font-semibold">好きな言語は→VBA、Java、Rust、Coffeecript</p>
+                <p className="mb-4 text-black font-semibold">好きなフロントエンド技術は→jQuery、Bootstrap、Notion API</p>
+                <p className="mb-4 text-black font-semibold">好きなマイコンは→ESP32 S3</p>
+                <p className="mb-4 text-black font-semibold">一押しのファッションブランドは→ユニクロ</p>
+                <p className="mb-4 text-black font-semibold">好きなOSは→lubuntu</p>
+                <p className="mb-4 text-black font-semibold">兄弟は→妹が一人</p>
+                <p className="mb-4 text-black font-semibold">マイブーム→デトロイトビカムヒューマン</p>
+                <p className="mb-4 text-black font-semibold">好きなネットミームは→ダンシングバナナ</p>
+                <p className="mb-4 text-black font-semibold">武勇伝は→wakkate TV 出演</p>
+                <p className="mb-4 text-black font-semibold">好きなyoutuberは→ゆる言語学ラジオ</p>
+                <p className="mb-4 text-black font-semibold">スポーツ経験は→剣道、合気道SA</p>
+                <p className="mb-4 text-black font-semibold">好きな企業→Level Five</p>
+                <p className="mb-4 text-black font-semibold">バイトは→個別指導</p>
+                <p className="mb-4 text-black font-semibold">受験時代に使った参考書→英語ダブルフォーカス、リンガメタリカ</p>
+                <p className="mb-4 text-black font-semibold">スマホに入ってるアプリは→アイドルマスター</p>
+                <p className="mb-4 text-black font-semibold">最近の悩みは→運動不足</p>
+                <p className="mb-4 text-black font-semibold">自分を動物に例えると→ラマ</p>
+                <p className="mb-4 text-black font-semibold">自分の長所は→身長175cm</p>
+                <p className="mb-4 text-black font-semibold">好きなIC→74LS266</p>
+                <p className="mb-4 text-black font-semibold">好きなアイドル→なんばえみ</p>
+                <p className="mb-4 text-black font-semibold">GPAは→2.86</p>  
+                <p className="mb-4 text-black font-semibold"></p>              
             </div>
             }
         </div>

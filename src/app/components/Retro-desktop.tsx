@@ -245,7 +245,7 @@ export default function RetroDesktop() {
             isOpen && (
               <button
                 key={key}
-                className="bg-gray-200 border border-gray-400 px-2 py-1 text-xs flex-1 max-w-[150px] text-left truncate"
+                className="bg-gray-200 border border-gray-400 px-2 py-1 text-xs text-black flex-1 justify-center max-w-[150px] text-left truncate"
                 onClick={() => toggleWindow(key as keyof typeof openWindows)}
               >
                 {key === "about"
