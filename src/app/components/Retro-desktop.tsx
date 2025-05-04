@@ -23,6 +23,7 @@ import P15 from "../../../public/IMG_6958.jpg"
 import P16 from "../../../public/IMG_6978.jpg"
 
 import Image from "next/image"
+import ContactForm from "./Contact-form"
 
 export default function RetroDesktop() {
   const [openWindows, setOpenWindows] = useState<{
@@ -37,8 +38,8 @@ export default function RetroDesktop() {
     myComputer: false,
     myDocuments: false,
     internetExplorer: false,
-    mail: false,
-    picture: true
+    mail: true,
+    picture: true,
   })
 
   const toggleWindow = (window: keyof typeof openWindows) => {
@@ -122,10 +123,9 @@ export default function RetroDesktop() {
           />
         )}
         {openWindows.mail && (
-          <WindowDialog title="メール" onClose={() => toggleWindow("mail")} initialPosition={{ x: 300, y: 250 }}>
-            <div className="p-4 text-black">
-              <h2 className="font-bold mb-2">メール</h2>
-              <p>メールの送受信を行うアプリケーションです。</p>
+          <WindowDialog title="お問い合わせフォーム" onClose={() => toggleWindow("mail")} initialPosition={{ x: 300, y: 250 }}>
+            <div className="text-black">
+                <ContactForm />
             </div>
           </WindowDialog>
         )}

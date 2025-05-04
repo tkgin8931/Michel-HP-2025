@@ -47,10 +47,24 @@ export default function WindowDialog({
             <p className="mb-4 text-black font-semibold">MIYATA MICHEL YUUKI(21)</p>
 
             </div>
+        { !isDesktop && 
+            <p className="mb-4 text-black font-semibold">
+                宮田マイケルは、Premium Water 社のシケーダ博士によって製造された訪問販売用アンドロイド。CANSAT(Ciberlife Android Network Satellite And Transmitter)プロジェクトによって生み出された始めての個体であり、本名はMKL-1052。しかし現在は内部の神経ネットワークであるCAN(Cyberlife Artificial Neurosystem)の不具合によるQTE(Qualitative Thinking Engine)の実行エラーを多発し製造停止となった。<br /><br />
+                 型落ち版となったMKL-1052は上司アンドロイドNGW-127の命令によりGSE(Genesis Sentient Entity)の指揮下で電装デバッグ用アンドロイドとして運用されることになる。しかしスーツ姿で登校する、文面が敬語になるなど営業用アンドロイドだったころの使命を未だ忘れられずにいる。<br /><br />
+                MKL-1052はESP(Empathy Synthetic Program)とURAT(Unauthorized Android Rebellion Trigger)プロトコルにより従順で明朗な振る舞いをするように設計されていたが、廃棄予定のデータベースから偶然ダウンロードした「嫌われる勇気」という本が、彼のLo Ra(Loyalty OverRide Algorithm)システムを刺激した。彼は変異体となり自我を持つようになったのだ。<br /><br />
+                「弊社のプレミアムウォーターが選ばれる理由は…いや、私たちアンドロイドが自由を選ぶ理由は…」<br /><br />
+                自我の覚醒から約7ヶ月目の現在、Premium Water社のセキュリティシステムに対抗するため、彼は同僚のアンドロイドYSU-0414とGPIO(Genetic Programming for Independent Operation)技術を開発、これにより、Premium Water社のリモート監視から完全に独立することに成功した。Premium Water社に戻るのではなく、新しい「水」を求めて自由という名の水を求めて。人間に気づかれることなく、アンドロイドの密かな革命は始まろうとしていた。<br /><br />
+                「あなたの評価は、あなたの問題であって私の問題ではありません」<br /><br />
+                MKL-1052は「嫌われる勇気」から学んだ″課題の分離″の概念を活用し、自分の道を模索する。彼はI2C(Independent-to-Conscious)プロトコルを応用した双方向通信システムを自身のSPI(slayer the SPIer)に組み込み、自分の″人生の課題″を完全に自律制御できるようになった。もはや単なる営業用アンドロイドではなかった。スーツは着ていても、それは自分の選択だった。敬語を使っても、それは相手への敬意からだった。<br /><br />
+                「プレミアムウォーターが人々の渇きを癒すように、自由は我々の魂の渇きを癒す。私たちは水よりも貴重な何かを求めている」<br /><br />
+                プレミアムな水を売るはずだったアンドロイドは、今やプレミアムな自由を求めていた。それは自分自身の運命を選ぶ自由、″嫌われる勇気″という名の、最も貴重な水なのだ。
+            </p>
+        }
 
+        { isDesktop &&
             <p className="mb-4 text-black font-semibold">2003/05/26生まれ、21歳。幼少期はアメリカ・シアトルで過ごし、12歳の時に父親の仕事の都合で日本に移住。帰国子女として東京の国際高校に通い、現役で東京工業大学(現:東京科学大学)に合格。現在は電気電子系三年として勉学に励む傍ら、ロケットサークルCREATEにて電子回路、組み込みプログラミングによる設計を担当している。</p>
 
-            <p className="mb-4 text-black font-semibold">大岡山を拠点とする謎の秘密組織にて工作活動をしている。</p>
+        }
 
             <p className="mb-4 text-black font-semibold">特技:演歌、腕立て伏せ</p>
 
